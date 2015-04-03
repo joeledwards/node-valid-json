@@ -5,7 +5,7 @@
     "JSON",
     "Validation"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Joel Edwards (https://github.com/joeledwards)",
   "contributors": [
     "Joel Edwards <joeledwards@gmail.com> (https://github.com/joeledwards)"
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "https://github.com/joeledwards/node-valid-json.git"
   },
-  "main": "./lib/index",
+  "main": "./lib/index.js",
   "directories" : {
     "lib": "./lib"
   },
