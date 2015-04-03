@@ -1,0 +1,38 @@
+{
+  "name": "valid-json",
+  "description": "Recursively validate all JSON files in a directory.",
+  "keywords": [
+    "JSON",
+    "Validation"
+  ],
+  "version": "1.0.0",
+  "author": "Joel Edwards (https://github.com/joeledwards)",
+  "contributors": [
+    "Joel Edwards <joeledwards@gmail.com> (https://github.com/joeledwards)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joeledwards/node-valid-json.git"
+  },
+  "main": "./lib/index",
+  "directories" : {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "commander": ">=2.7 <3",
+    "lodash": ">=3.6 <4",
+    "q": ">=1.2 <2",
+    "walk": ">=2.3.9 <3"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.9 <2",
+    "mocha": ">=2.2 <3"
+  },
+  "scripts": {
+    "build": "cake build",
+    "test": "cake test"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
